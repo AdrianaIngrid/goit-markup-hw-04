@@ -7,6 +7,7 @@
     --background-color: #FFFFFFFF;
     --slate-color: #434455;
     --cornflower-color: #E7E9FC;
+    --grey-color: #2E2F42B2;
         }
 /*Global Styles*/
 body {
@@ -103,6 +104,7 @@ margin: 0;
 }
 .header-parent {
     border-bottom: 1px solid var(--cornflower-color);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .header-div {
     display: flex;
@@ -135,6 +137,7 @@ margin: 0;
 .general-footer {
 background-color: var(--navy-color);
 padding: 100px 0px;
+width: 1440px;
 }
 .logo-of-footer {
     text-decoration: none;
@@ -168,12 +171,16 @@ width: 71px;
     letter-spacing: 0.32px;
     background-color: var(--navy-color);
     max-width: 264px;
+    margin-top: auto;
     }
+.footer-divs {
+    display: flex;
+    flex-direction: row;
+}
 /*Buttons*/
 /*Index buttons*/
 /* Titles Styles*/
 .hero-section-title {
-    background-color:var(--navy-color);
     color: var(--white-color);
     font-size: 56px;
     font-weight: 700;
@@ -183,6 +190,7 @@ width: 71px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 48px;
+
     }
     .order-service-button {
         background-color: var(--iris-color);
@@ -207,7 +215,10 @@ width: 71px;
     }
 /* Section One Hero Section*/
 .section-one {
-    background-color: var(--navy-color);
+    background: var(--grey-color, rgba(46, 47, 66, 0.70));
+    background-image: url(../images/people-office-bg.jpg);    
+    background-repeat: no-repeat;
+    width: 1440px;    
     color:var(--white-color);
     padding-top: 188px;
     padding-bottom: 188px;
@@ -217,6 +228,7 @@ width: 71px;
 /* Section Two-Strategy-Punctuality...*/
 .section-two-parent {
     padding: 120px 0;
+    width: 1440px;
 }
 .section-two-titles {
     color: var(--navy-color);
@@ -234,6 +246,14 @@ width: 71px;
 }
 .section-two-list-card {
     width: calc((100%-72px)/4);
+}
+.section-two-card {
+    background-color: var(--cloud-color);
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    padding: 24px 100px;
+    
 }
     /*What are we doing */
 .three-section-title {
@@ -262,7 +282,7 @@ width: 71px;
         width: calc((100%-48px)/3);
         /*((100%-48)/3);*/
     }
-/*Our Team Title*/
+/*Our Team -Section Four*/
 .four-section-title {
     text-align: center;
     color: var(--navy-color);
@@ -297,6 +317,10 @@ width: 71px;
 .section-four-card {
     padding-top: 32px;
     padding-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 15px;
 }
 .our-team-names {
     color: var(--navy-color);
@@ -312,6 +336,50 @@ width: 71px;
     background-color: var(--background-color);
     border-radius: 0px 0px 4px 4px;
 }
+.social-media-icons {
+    display: flex;
+    gap: 24px;
+    fill: var(--white-color);
+}
+.social-media-icon {
+    background-color: var(--iris-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+/* Section 5 Customers */
+.section-five-parent {
+    width: 1440px;
+    margin-bottom: 120px;
+}
+.customers-title {
+font-size: 36px;
+font-weight: 700;
+line-height: 111.11%; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+text-align: center;
+color: var(--navy-color);
+margin-bottom: 72px;
+}
+.section-five-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    width: 168px;
+    height: 88px;
+}
+.section-five-item {
+
+flex-basis: calc((100%-120px)/6);
+ border: 1px solid #2E2F42;
+ padding: 16px 32px;
+}
+
 /* Portfolio buttons*/
 .all-filter-button {
     font-family: 'Roboto',sans-serif;
