@@ -172,6 +172,7 @@ width: 71px;
     background-color: var(--navy-color);
     max-width: 264px;
     margin-top: auto;
+    margin-bottom: 16px;
     }
 .social-media-paragraph {
 color: var(--white-color);
@@ -214,6 +215,9 @@ margin-bottom: 16px;
 }
 .social-media-link:hover, .social-media-link:active  {
     background-color: var( #31d0aa);
+}
+.footer-svg {
+    fill: var(--cloud-color);
 }
 /*Buttons*/
 /*Index buttons*/
