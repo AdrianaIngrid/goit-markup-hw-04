@@ -376,6 +376,32 @@ margin-bottom: 16px;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.our-team-media {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-left: 0;
+}
+.list-team-svg {
+    width: 40px;
+    height: 40px;
+}
+.link-media {
+    width: 100%;
+    height: 100%;
+    background-color: var(--iris-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.link-media:hover, .link-media:focus {
+    background-color: var(--ocean-color);
+}
+.svg-media {
+    background-color: var(--cloud-color);
+}
 
 /* Section 5 Customers */
 .section-five-parent {
@@ -394,17 +420,32 @@ margin-bottom: 72px;
 }
 .section-five-items {
     display: flex;
-    flex-direction: row;
-    align-items: center;
     gap: 24px;
-    width: 168px;
     height: 88px;
-}
+    padding-left: 0;
+   }
 .section-five-item {
-
-flex-basis: calc((100%-120px)/6);
- border: 1px solid #2E2F42;
- padding: 16px 32px;
+    width: calc((100%-120px)/6);
+}
+.section-five-items {
+   padding: 120 0;
+}
+.the-six-elm {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8E8F99;
+}
+.the-six-elm:hover, .the-six-elm:focus {
+    color: var(--ocean-color);
+    border-color: var(--ocean-color);
+}
+.six-svg {
+    fill: currentColor;
 }
 
 /* Portfolio buttons*/
