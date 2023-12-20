@@ -173,9 +173,47 @@ width: 71px;
     max-width: 264px;
     margin-top: auto;
     }
+.social-media-paragraph {
+color: var(--white-color);
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 150% */
+letter-spacing: 0.32px;
+margin-bottom: 16px;
+}
 .footer-divs {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
+    margin-right: 120px;
+}
+.social-media-icons {
+    display: flex;
+    gap: 16px;
+    fill: var(--white-color);
+}
+.social-media-icon {
+    background-color: var(--iris-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.social-media-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--iris-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-media-link:hover, .social-media-link:active  {
+    background-color: var( #31d0aa);
 }
 /*Buttons*/
 /*Index buttons*/
@@ -215,10 +253,11 @@ width: 71px;
     }
 /* Section One Hero Section*/
 .section-one {
-    background: var(--grey-color, rgba(46, 47, 66, 0.70));
-    background-image: url(../images/people-office-bg.jpg);    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70),rgba(46, 47, 66, 0.70)) , url(../images/people-office-bg.jpg);    
     background-repeat: no-repeat;
-    width: 1440px;    
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;    
     color:var(--white-color);
     padding-top: 188px;
     padding-bottom: 188px;
@@ -311,7 +350,7 @@ width: 71px;
 .four-section-cards {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
     gap: 24px;
 }
 .section-four-card {
@@ -335,21 +374,9 @@ width: 71px;
 .our-team-img {
     background-color: var(--background-color);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.social-media-icons {
-    display: flex;
-    gap: 24px;
-    fill: var(--white-color);
-}
-.social-media-icon {
-    background-color: var(--iris-color);
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-}
+
 /* Section 5 Customers */
 .section-five-parent {
     width: 1440px;
