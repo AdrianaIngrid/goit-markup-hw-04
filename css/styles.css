@@ -187,7 +187,7 @@ margin-bottom: 16px;
     display: flex;
     flex-direction: row;
     align-items: baseline;
-    margin-right: 120px;
+    gap: 120px;
 }
 .social-media-icons {
     display: flex;
@@ -213,7 +213,7 @@ margin-bottom: 16px;
     align-items: center;
 
 }
-.social-media-link:hover, .social-media-link:active {
+.social-media-link:hover, .social-media-link:focus {
     background-color: #31d0aa;
 }
 .footer-svg {
@@ -413,7 +413,8 @@ margin-bottom: 16px;
 /* Section 5 Customers */
 .section-five-parent {
     width: 1440px;
-    padding-top: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .customers-title {
 margin-bottom: 72px;
