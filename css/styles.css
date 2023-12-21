@@ -391,6 +391,7 @@ margin-bottom: 16px;
 .list-team-svg {
     width: 40px;
     height: 40px;
+    fill: var(--cloud-color);
 }
 .link-media {
     width: 100%;
@@ -406,7 +407,7 @@ margin-bottom: 16px;
     background-color: var(--ocean-color);
 }
 .svg-media {
-    background-color: var(--cloud-color);
+       fill: var(--cloud-color);
 }
 
 /* Section 5 Customers */
