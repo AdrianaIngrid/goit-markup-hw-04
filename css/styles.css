@@ -432,10 +432,12 @@ color: var(--navy-color);
 }
 .section-five-items {
     display: flex;
-    gap: 24px;  
+    gap: 24px;
+
    }
 .section-five-item {
     width: calc((100% - 120px) / 6);
+    height: 88px;
 }
 .section-five-items {
    padding: 120 0;
