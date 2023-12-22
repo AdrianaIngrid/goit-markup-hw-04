@@ -191,6 +191,7 @@ margin-bottom: 16px;
 }
 .footer-divs {
     display: flex;
+    align-items: baseline;
 }
 .social-media-icons {
     display: flex;
