@@ -139,6 +139,9 @@ background-color: var(--navy-color);
 padding: 100px 0px;
 width: 1440px;
 }
+.double-div-footer {
+    display: flex;
+}
 .logo-of-footer {
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
@@ -151,6 +154,9 @@ width: 1440px;
     background-color: var(--navy-color);
     display: inline-block;
     margin-bottom: 16px;
+}
+.child-div-footer {
+    margin-right: 120px;
 }
 .studio-span {
 color: var(--cloud-color);
@@ -185,9 +191,6 @@ margin-bottom: 16px;
 }
 .footer-divs {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin-right: 120px;
 }
 .social-media-icons {
     display: flex;
@@ -384,7 +387,6 @@ margin-bottom: 16px;
 }
 .our-team-media {
     display: flex;
-    justify-content: center;
     gap: 24px;
     padding-left: 0;
 }
@@ -429,12 +431,10 @@ color: var(--navy-color);
 }
 .section-five-items {
     display: flex;
-    gap: 24px;
-    height: 88px;
-    padding-left: 0;
+    gap: 24px;  
    }
 .section-five-item {
-    width: calc((100%-120px)/6);
+    width: calc((100% - 120px) / 6);
 }
 .section-five-items {
    padding: 120 0;
